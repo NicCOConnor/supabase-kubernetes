@@ -1,4 +1,4 @@
-{{- if .Values.kong.enable -}}
+{{- if .Values.kong.enabled -}}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
